@@ -1,0 +1,37 @@
+networks:
+  FAPnetwork:
+    driver: bridge
+services:
+  FAPidentity.api:
+    build:
+      context: C:\MYP\MAPP\FoodSurveyApp
+      dockerfile: src/Services/Identity/Identity.API/Dockerfile
+    depends_on:
+    - FAPsql.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      ApplicationInsights__InstrumentationKey: ''
+      ConnectionString: Server=172.19.0.2,1433;Database=FoodApp.Services.IdentityDb;User
+        Id=sa;Password=Pass@word
+      ConnectionString_IdentityConfigStore: Server=172.19.0.2,1433;Database=FoodApp.Services.IdentityConfigDb;User
+        Id=sa;Password=Pass@word
+      OrchestratorType: ''
+      UseCustomizationData: "True"
+    image: manvekar/identity.api
+    networks:
+      FAPnetwork: null
+    ports:
+    - published: 6105
+      target: 80
+  FAPsql.data:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Pass@word
+    image: microsoft/mssql-server-linux:2017-latest
+    networks:
+      FAPnetwork: null
+    ports:
+    - published: 6433
+      target: 1433
+version: '3.4'

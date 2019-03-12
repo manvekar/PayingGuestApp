@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>FoodApp.Services.Identity.API</RootNamespace>
+    <ApplicationIcon />
+    <Win32Resource />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\ConfigurationDb\old_migration_files\**" />
+    <Compile Remove="Migrations\old_migration_files\**" />
+    <Compile Remove="Migrations\PersistedGrantDb\old_migration_files\**" />
+    <EmbeddedResource Remove="Migrations\ConfigurationDb\old_migration_files\**" />
+    <EmbeddedResource Remove="Migrations\old_migration_files\**" />
+    <EmbeddedResource Remove="Migrations\PersistedGrantDb\old_migration_files\**" />
+    <None Remove="Migrations\ConfigurationDb\old_migration_files\**" />
+    <None Remove="Migrations\old_migration_files\**" />
+    <None Remove="Migrations\PersistedGrantDb\old_migration_files\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20170912114036_Initial.cs" />
+    <Compile Remove="Migrations\20170912114036_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ConfigurationDb\20170927170433_Config.cs" />
+    <Compile Remove="Migrations\ConfigurationDb\20170927170433_Config.Designer.cs" />
+    <Compile Remove="Migrations\PersistedGrantDb\20170927170423_Grants.cs" />
+    <Compile Remove="Migrations\PersistedGrantDb\20170927170423_Grants.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Certificate\idsrv3test.pfx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Certificate\idsrv3test.pfx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="2.3.0" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="2.3.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.5.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="1.0.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.ServiceFabric" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Redis" Version="0.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web">
+      <HintPath>System.Web</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks.SqlServer\Microsoft.Extensions.HealthChecks.SqlServer.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\Microsoft.Extensions.HealthChecks.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\WebHostCustomization\WebHost.Customization\WebHost.Customization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

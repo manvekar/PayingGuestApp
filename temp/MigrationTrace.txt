@@ -1,0 +1,79 @@
+Each package is licensed to you by its owner. NuGet is not responsible for, nor does it grant any licenses to, third-party packages. Some packages may include dependencies which are governed by additional licenses. Follow the package source (feed) URL to determine any dependencies.
+
+Package Manager Console Host Version 4.9.3.5777
+
+Type 'get-help NuGet' to see all available NuGet commands.
+
+PM> dotnet ef migration add Initial -c ApplicationDbContext
+
+Welcome to .NET Core!
+---------------------
+Learn more about .NET Core: https://aka.ms/dotnet-docs
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli-docs
+
+Telemetry
+---------
+The .NET Core tools collect usage data in order to help us improve your experience. The data is anonymous and doesn't include command-line arguments. The data is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET Core CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+ASP.NET Core
+------------
+Successfully installed the ASP.NET Core HTTPS Development Certificate.
+To trust the certificate run 'dotnet dev-certs https --trust' (Windows and macOS only). For establishing trust on other platforms refer to the platform specific documentation.
+For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migration add Initial -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migration add Initial -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migration add Initial -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migration add Initial -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migration add Initial -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore_old.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migration add FoodApp_Initialmigration -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore_old.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migrations add -name FoodApp_Initialmigration -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore_old.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migrations add -name FoodApp_Initialmigration -proj "Identity.API" -c ApplicationDbContext -framework netcoreapp2.2
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore_old.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migrations add -name FoodApp_Initialmigration -proj "Identity.API" -c ApplicationDbContext -framework netcoreapp2.2 -o Migrations/ 
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore_old.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> dotnet ef migrations add -name FoodApp_Initialmigration -proj "Identity.API" -c ApplicationDbContext -framework netcoreapp2.2 -o Migrations/ 
+C:\MYP\MAPP\FoodSurveyApp\obj\docker-compose.dcproj.EntityFrameworkCore_old.targets(4,5): error MSB4006: There is a circular dependency in the target dependency graph involving target "GetEFProjectMetadata". [C:\MYP\MAPP\FoodSurveyApp\docker-compose.dcproj]
+Unable to retrieve project metadata. Ensure it's an MSBuild-based .NET Core project. If you're using custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
+PM> add-migration -Name FoodApp_Initialmigration -Project "Identity.API"
+Startup project 'docker-compose' is a Docker project. Select an ASP.NET Core Web Application as your startup project and try again.
+PM> add-migration -Name FoodApp_Initialmigration -Project "Identity.API"
+An error occurred while accessing the IWebHost on class 'Program'. Continuing without the application service provider. Error: Object reference not set to an instance of an object.
+More than one DbContext was found. Specify which one to use. Use the '-Context' parameter for PowerShell commands and the '--context' parameter for dotnet commands.
+PM> add-migration -Name FoodApp_Initialmigration -Project "Identity.API" -c ApplicationDbContext -framework netcoreapp2.2 -o Migrations/
+Add-Migration : A parameter cannot be found that matches parameter name 'framework'.
+At line:1 char:94
++ ... on -Project "Identity.API" -c ApplicationDbContext -framework netcore ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Add-Migration], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Add-Migration
+ 
+PM> add-migration -Name FoodApp_Initialmigration -Project "Identity.API" -c ApplicationDbContext -o Migrations/
+An error occurred while accessing the IWebHost on class 'Program'. Continuing without the application service provider. Error: Object reference not set to an instance of an object.
+To undo this action, use Remove-Migration.
+PM> add-migration -Name FoodApp_Initialmigration -Project "Identity.API" -c PersistedGrantDbContext -o Migrations/PersistedGrantDb
+An error occurred while accessing the IWebHost on class 'Program'. Continuing without the application service provider. Error: Object reference not set to an instance of an object.
+To undo this action, use Remove-Migration.
+PM> add-migration -Name FoodApp_Initialmigration -Project "Identity.API" -c ConfigurationDbContext -o Migrations/ConfigurationDb
+An error occurred while accessing the IWebHost on class 'Program'. Continuing without the application service provider. Error: Object reference not set to an instance of an object.
+To undo this action, use Remove-Migration.
+PM> 

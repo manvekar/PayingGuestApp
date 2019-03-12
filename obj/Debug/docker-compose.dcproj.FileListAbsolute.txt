@@ -1,0 +1,11 @@
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\Identity.API.dll
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\Microsoft.Extensions.HealthChecks.dll
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\WebHost.Customization.dll
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\Microsoft.Extensions.HealthChecks.SqlServer.dll
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\Identity.API.pdb
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\Microsoft.Extensions.HealthChecks.pdb
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\WebHost.Customization.pdb
+C:\MYP\MAPP\FoodSurveyApp\bin\Debug\Microsoft.Extensions.HealthChecks.SqlServer.pdb
+C:\MYP\MAPP\FoodSurveyApp\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\MYP\MAPP\FoodSurveyApp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\MYP\MAPP\FoodSurveyApp\obj\Debug\docker-compose.dcproj.CopyComplete

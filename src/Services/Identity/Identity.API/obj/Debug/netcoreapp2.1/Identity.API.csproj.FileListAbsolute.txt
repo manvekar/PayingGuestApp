@@ -1,0 +1,8 @@
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\bin\Debug\netcoreapp2.1\Identity.API.deps.json
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\bin\Debug\netcoreapp2.1\Identity.API.runtimeconfig.json
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\bin\Debug\netcoreapp2.1\Identity.API.runtimeconfig.dev.json
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\bin\Debug\netcoreapp2.1\Identity.API.dll
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\obj\Debug\netcoreapp2.1\Identity.API.csproj.CoreCompileInputs.cache
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\obj\Debug\netcoreapp2.1\Identity.API.AssemblyInfoInputs.cache
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\obj\Debug\netcoreapp2.1\Identity.API.AssemblyInfo.cs
+C:\MYP\MAPP\FoodApp\Services\Identity\Identity.API\obj\Debug\netcoreapp2.1\Identity.API.csprojAssemblyReference.cache

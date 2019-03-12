@@ -1,0 +1,6 @@
+C:\MYP\MAPP\FoodApp\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.deps.json
+C:\MYP\MAPP\FoodApp\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.dll
+C:\MYP\MAPP\FoodApp\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.csprojAssemblyReference.cache
+C:\MYP\MAPP\FoodApp\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.csproj.CoreCompileInputs.cache
+C:\MYP\MAPP\FoodApp\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.AssemblyInfoInputs.cache
+C:\MYP\MAPP\FoodApp\BuildingBlocks\WebHostCustomization\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.AssemblyInfo.cs

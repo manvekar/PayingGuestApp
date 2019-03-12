@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  FAPsql.data:
+    image: microsoft/mssql-server-linux:2017-latest
+    networks:
+      - FAPnetwork
+
+  FAPidentity.api:
+    image: manvekar/identity.api
+    build:
+      context: .
+      dockerfile: src/Services/Identity/Identity.API/Dockerfile
+    depends_on:
+      - FAPsql.data
+    networks:
+      - FAPnetwork
+networks:
+  FAPnetwork:
+    driver: bridge
