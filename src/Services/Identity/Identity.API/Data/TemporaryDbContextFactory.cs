@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Options;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -15,7 +15,7 @@ namespace FoodApp.Services.Identity.API.Data
     {
         public ApplicationDbContext CreateDbContext(string[] args)
         {
-            var connectionString = "Server=tcp:127.0.0.1,1433;Database=FoodApp.Services.IdentityDb;User Id=sa;Password=Pass@word;";
+            var connectionString = "Server=tcp:127.0.0.1,6433;Database=FoodApp.Services.IdentityDb;User Id=sa;Password=Pass@word;";
             //var connectionString = "Data Source=.\\sqlexpress;Initial Catalog=FoodApp.Services.IdentityDb;User Id=sa;Password=anvekar@123;";
             //for local db  
             //var connectionString = "Server=(localdb)\\MSSQLLocalDB;Database=msv.AuthDB;Trusted_Connection=True;MultipleActiveResultSets=true";
@@ -32,7 +32,7 @@ namespace FoodApp.Services.Identity.API.Data
         //      1. Connectionstring using helper object
         public PersistedGrantDbContext CreateDbContext(string[] args)
         {
-            var connectionString = "Server=tcp:127.0.0.1,1433;Database=FoodApp.Services.IdentityDb;User Id=sa;Password=Pass@word;";
+            var connectionString = "Server=tcp:127.0.0.1,6433;Database=FoodApp.Services.IdentityDb;User Id=sa;Password=Pass@word;";
             //var connectionString = "Data Source=.\\sqlexpress;Initial Catalog=FoodApp.Services.IdentityDb;User Id=sa;Password=anvekar@123;";
             var builder = new DbContextOptionsBuilder<PersistedGrantDbContext>();
             var migrationsAssembly = typeof(ApplicationDbContext).GetTypeInfo().Assembly.GetName().Name;
@@ -71,4 +71,3 @@ namespace FoodApp.Services.Identity.API.Data
         }
     }
 }
-*/

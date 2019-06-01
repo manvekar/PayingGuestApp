@@ -26,14 +26,6 @@ namespace FoodApp.Services.Identity.API.Migrations
 
                     b.Property<int>("AccessFailedCount");
 
-                    b.Property<string>("CardHolderName")
-                        .IsRequired();
-
-                    b.Property<string>("CardNumber")
-                        .IsRequired();
-
-                    b.Property<int>("CardType");
-
                     b.Property<string>("City")
                         .IsRequired();
 
@@ -47,9 +39,6 @@ namespace FoodApp.Services.Identity.API.Migrations
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed");
-
-                    b.Property<string>("Expiration")
-                        .IsRequired();
 
                     b.Property<string>("LastName")
                         .IsRequired();
@@ -73,16 +62,12 @@ namespace FoodApp.Services.Identity.API.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed");
 
-                    b.Property<string>("SecurityNumber")
-                        .IsRequired();
-
                     b.Property<string>("SecurityStamp");
 
                     b.Property<string>("State")
                         .IsRequired();
 
-                    b.Property<string>("Street")
-                        .IsRequired();
+                    b.Property<string>("Street");
 
                     b.Property<bool>("TwoFactorEnabled");
 

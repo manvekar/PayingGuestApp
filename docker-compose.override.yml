@@ -12,8 +12,8 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://0.0.0.0:80
-      - ConnectionString=${ESHOP_AZURE_IDENTITY_DB:-Server=172.19.0.2,1433;Database=FoodApp.Services.IdentityDb;User Id=sa;Password=Pass@word}
-      - ConnectionString_IdentityConfigStore=${ESHOP_AZURE_IDENTITY_CONFIG_DB:-Server=172.19.0.2,1433;Database=FoodApp.Services.IdentityConfigDb;User Id=sa;Password=Pass@word}
+      - ConnectionString=${ESHOP_AZURE_IDENTITY_DB:-Server=172.20.0.2,1433;Database=FoodApp.Services.IdentityDb;User Id=sa;Password=Pass@word}
+      - ConnectionString_IdentityConfigStore=${ESHOP_AZURE_IDENTITY_CONFIG_DB:-Server=172.20.0.2,1433;Database=FoodApp.Services.IdentityConfigDb;User Id=sa;Password=Pass@word}
       - UseCustomizationData=True  
       - ApplicationInsights__InstrumentationKey=${INSTRUMENTATION_KEY}
       - OrchestratorType=${ORCHESTRATOR_TYPE}

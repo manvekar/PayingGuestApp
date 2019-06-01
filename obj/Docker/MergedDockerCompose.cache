@@ -12,9 +12,9 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://0.0.0.0:80
       ApplicationInsights__InstrumentationKey: ''
-      ConnectionString: Server=172.19.0.2,1433;Database=FoodApp.Services.IdentityDb;User
+      ConnectionString: Server=172.20.0.2,1433;Database=FoodApp.Services.IdentityDb;User
         Id=sa;Password=Pass@word
-      ConnectionString_IdentityConfigStore: Server=172.19.0.2,1433;Database=FoodApp.Services.IdentityConfigDb;User
+      ConnectionString_IdentityConfigStore: Server=172.20.0.2,1433;Database=FoodApp.Services.IdentityConfigDb;User
         Id=sa;Password=Pass@word
       OrchestratorType: ''
       UseCustomizationData: "True"
